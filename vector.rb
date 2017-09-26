@@ -15,6 +15,6 @@ class Vector
   end
 
   def add(vec)
-   "(#{vec.x+@x}, #{vec.y+@y})"
+   Vector.new(x+ @x, y + @y)
   end
 end
